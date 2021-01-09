@@ -16,6 +16,9 @@
 		99358D0C25A9EFEF002ACF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99358D0A25A9EFEF002ACF48 /* LaunchScreen.storyboard */; };
 		99358D1725A9EFEF002ACF48 /* BlockChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99358D1625A9EFEF002ACF48 /* BlockChainTests.swift */; };
 		99358D2225A9EFEF002ACF48 /* BlockChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99358D2125A9EFEF002ACF48 /* BlockChainUITests.swift */; };
+		99358D3325A9F020002ACF48 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99358D3225A9F020002ACF48 /* Block.swift */; };
+		99358D3825A9F14A002ACF48 /* BlockChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99358D3725A9F14A002ACF48 /* BlockChain.swift */; };
+		99358D3E25AA3FCA002ACF48 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99358D3D25AA3FC9002ACF48 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		99358D1D25A9EFEF002ACF48 /* BlockChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99358D2125A9EFEF002ACF48 /* BlockChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChainUITests.swift; sourceTree = "<group>"; };
 		99358D2325A9EFEF002ACF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99358D3225A9F020002ACF48 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		99358D3725A9F14A002ACF48 /* BlockChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChain.swift; sourceTree = "<group>"; };
+		99358D3D25AA3FC9002ACF48 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				99358CFC25A9EFE8002ACF48 /* AppDelegate.swift */,
 				99358CFE25A9EFE8002ACF48 /* SceneDelegate.swift */,
 				99358D0025A9EFE8002ACF48 /* ViewController.swift */,
+				99358D3D25AA3FC9002ACF48 /* AppColors.swift */,
+				99358D3225A9F020002ACF48 /* Block.swift */,
+				99358D3725A9F14A002ACF48 /* BlockChain.swift */,
 				99358D0225A9EFE8002ACF48 /* Main.storyboard */,
 				99358D0825A9EFEF002ACF48 /* Assets.xcassets */,
 				99358D0A25A9EFEF002ACF48 /* LaunchScreen.storyboard */,
@@ -263,8 +272,11 @@
 			files = (
 				99358D0125A9EFE8002ACF48 /* ViewController.swift in Sources */,
 				99358D0725A9EFE8002ACF48 /* BlockChain.xcdatamodeld in Sources */,
+				99358D3325A9F020002ACF48 /* Block.swift in Sources */,
 				99358CFD25A9EFE8002ACF48 /* AppDelegate.swift in Sources */,
+				99358D3E25AA3FCA002ACF48 /* AppColors.swift in Sources */,
 				99358CFF25A9EFE8002ACF48 /* SceneDelegate.swift in Sources */,
+				99358D3825A9F14A002ACF48 /* BlockChain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
